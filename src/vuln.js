@@ -7,5 +7,9 @@ app.get("/q", (req, res) => {
   require("child_process").exec(cmd);
   res.send("ok");
 });
-
+require("child_process").exec(cmd);
+// или
+require('child_process').exec(cmd);
+// или
+child_process.exec(cmd);
 app.listen(3000);
