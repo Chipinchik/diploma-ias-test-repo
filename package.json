@@ -1,8 +1,13 @@
 {
-  "name": "diploma-ias-test-repo",
+  "name": "test-vulnerable-repo",
   "version": "1.0.0",
   "private": true,
+  "description": "Intentionally vulnerable repository for testing diploma IAS scanner",
+  "main": "src/vuln.js",
+  "scripts": {
+    "start": "node src/vuln.js"
+  },
   "dependencies": {
-    "lodash": "4.17.20"
+    "lodash": "4.17.15"
   }
 }
